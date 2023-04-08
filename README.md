@@ -1,2 +1,5 @@
-# BadBank
-Portfolio Project-- Front End (intentionally Bad) Banking Application
+# Portfolio Project- Front End (Intentionally Bad) Banking Application
+
+This is a portfolio project completed as part of MIT xPro Full Stack Bootcamp
+
+
