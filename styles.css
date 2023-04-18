@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-image: url("./images/BestFriends.jpg");
+  background-size: cover;
+  color: #253237;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+.btn {
+  color: white;
+  background-color: #212529;
+}
+
+.btn-primary {
+  border-color: #212529;
+}
+
+.card {
+  box-shadow: 0px 5px 7px #25323762;
+  background-color: transparent;
+}
+
+.card-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card-header {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.hovertext {
+  position: relative;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  width:6rem;
+  background-color: purple;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  border-radius: 5%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mainHr {
+  width: 70%;
+  margin: 0em auto 1.5em auto;
+  border: 0;
+  height: 1.5px;
+  background-color: transparent;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  box-shadow: 0 3px 8px #25323762;
+}
+
+.nav-link:hover {
+  color: #212529;
+}
+
+.nav-item:hover {
+  background-color: #8d99ae6c;
+  border-radius: 3px;
+}
+
+.navbar-nav li > a:hover,
+.navbar-nav li > a:focus {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-nav li > .active {
+  color: #fff;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
